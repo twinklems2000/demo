@@ -1,0 +1,72 @@
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerText {
+    color: #20b2aa;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.notificationContainer, .desk, .deskContainer, .floorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deskContainer, .floorContainer {
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 25px;
+    padding: 0 10px;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+}
+.floorContainer {
+    width: 180px;
+    margin-left: 10px;
+}
+
+.arrowStyle {
+    color: #ffffff;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5px 5px 3px 5px;
+    cursor: pointer;
+}
+
+.ratingStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: rgb(248, 248, 59);
+    border: 1px solid rgb(248, 248, 59);
+}
+
+.creditText {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notificationStyle, .avtarStyle {
+    border-radius: 50%;
+    border: 1px solid #20b2aa;
+    padding: 10px;
+    color: #20b2aa;
+    margin: 0 20px;
+}
+
+.avtarStyle {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}

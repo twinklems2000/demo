@@ -1,0 +1,13 @@
+.buttonStyle {
+    border: 1px solid #20b2aa;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    color: #20b2aa;
+    border-radius: 25px;
+    width: fit-content;
+    margin: auto;
+}
