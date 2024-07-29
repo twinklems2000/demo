@@ -1,12 +1,8 @@
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
-import "./calender.css"; 
+import "./calender.css";
 
 const Calendar = () => {
-  const events = [{ title: "Meeting", start: new Date() }];
-
- 
-
   return (
     <div className="full-calendar-container">
       <FullCalendar

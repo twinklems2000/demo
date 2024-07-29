@@ -1,6 +1,8 @@
 import { FC } from "react";
 import "./button.css";
 
+// interface for Button component
+
 interface IButton {
   title?: any;
   handleClick?: any;

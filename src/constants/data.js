@@ -5,6 +5,8 @@ import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import PersonSearchIcon from "@mui/icons-material/PersonSearch";
 import BookIcon from "@mui/icons-material/Book";
 
+// Routes data
+
 export const routeData = [
   {
     path: "/",
@@ -43,6 +45,8 @@ export const routeData = [
   },
 ];
 
+// Sidebar data
+
 export const sidebarData = [
   {
     name: "Calender",
@@ -70,4 +74,3 @@ export const sidebarData = [
     icon: <SettingsSuggestIcon />,
   },
 ];
-
